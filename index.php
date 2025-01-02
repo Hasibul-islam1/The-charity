@@ -3,7 +3,7 @@
 
 <!-- Mirrored from preview.colorlib.com/theme/thecharity/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Dec 2024 04:23:16 GMT -->
 <head>
-    <title>Hello World</title>
+    <title>The-Charity</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -42,10 +42,13 @@
                         </div><!-- .header-bar-text -->
                     </div><!-- .col -->
 
-                    <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                    <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-between justify-content-lg-between align-items-center">
                         <div class="donate-btn">
                             <a href="#">Donate Now</a>
                         </div><!-- .donate-btn -->
+                        <div class="donate-btn">
+                            <a href="#">Volunteer</a>
+                        </div>
                     </div><!-- .col -->
                 </div><!-- .row -->
             </div><!-- .container -->
@@ -844,7 +847,7 @@
                 <div class="row">
                     <div class="col-12">
                         <p class="m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Hasibul</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div><!-- .col-12 -->
                 </div><!-- .row -->
