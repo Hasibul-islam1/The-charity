@@ -3,7 +3,7 @@
 
 <!-- Mirrored from preview.colorlib.com/theme/thecharity/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Dec 2024 04:23:54 GMT -->
 <head>
-    <title>Hello World</title>
+<title>The-Charity</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
