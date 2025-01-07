@@ -29,17 +29,17 @@
         <div class="row">
             <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                 <div class="site-branding d-flex align-items-center">
-                   <a class="d-block" href="index-2.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
+                   <a class="d-block" href="index.php" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
                 </div><!-- .site-branding -->
 
                 <nav class="site-navigation d-flex justify-content-end align-items-center">
                     <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
                         <li class="current-menu-item"><a href="index.php">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="causes.html">Causes</a></li>
-                        <li><a href="portfolio.html">Gallery</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="causes.php">Causes</a></li>
+                        <li><a href="portfolio.php">Gallery</a></li>
+                        <li><a href="news.php">News</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav><!-- .site-navigation -->
 
