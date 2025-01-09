@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-    $conn = new mysqli('localhost', 'root', '', 'user_auth');
+    $conn = new mysqli('localhost', 'root', '', 'charity');
     if ($conn->connect_error) {
         die('Connection failed: ' . $conn->connect_error);
     }
