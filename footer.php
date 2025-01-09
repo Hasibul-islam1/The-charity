@@ -93,4 +93,4 @@
               </div><!-- .row -->
           </div><!-- .container -->
       </div><!-- .footer-bar -->
-  </footer>.site-footer -->
+  </footer>

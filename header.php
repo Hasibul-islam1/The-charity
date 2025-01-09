@@ -17,7 +17,7 @@
                     <a href="#">Donate Now</a>
                 </div><!-- .donate-btn -->
                 <div class="donate-btn">
-                    <a href="#">Volunteer</a>
+                    <a href="login.php">Volunteer</a>
                 </div>
             </div><!-- .col -->
         </div><!-- .row -->
