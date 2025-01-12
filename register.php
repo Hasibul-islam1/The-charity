@@ -34,6 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="form-container">
         <form action="" method="POST">
+        <a id="top-icon" href="index.php">Back Home</a>
             <h2>Registration</h2>
             <input type="text" name="name" placeholder="Enter your name" required>
             <input type="email" name="email" placeholder="Enter your email" required>
