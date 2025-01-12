@@ -76,7 +76,7 @@
                             </div><!-- .entry-content -->
 
                             <div class="entry-footer mt-5">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .entry-footer -->
                         </div><!-- .cause-content-wrap -->
 
@@ -126,7 +126,7 @@
                             </div><!-- .entry-content -->
 
                             <div class="entry-footer mt-5">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .entry-footer -->
                         </div><!-- .cause-content-wrap -->
 
@@ -164,7 +164,7 @@
                             <img src="images/cause-1.jpg" alt="">
 
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php#" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .figure-overlay -->
                         </figure>
 
@@ -206,7 +206,7 @@
                             <img src="images/cause-2.jpg" alt="">
 
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .figure-overlay -->
                         </figure>
 
@@ -248,7 +248,7 @@
                             <img src="images/cause-3.jpg" alt="">
 
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .figure-overlay -->
                         </figure>
 
@@ -320,7 +320,7 @@
                     </div><!-- .fund-raised -->
 
                     <div class="entry-footer mt-5">
-                        <a href="#" class="btn gradient-bg">Donate Now</a>
+                        <a href="donat.php#" class="btn gradient-bg">Donate Now</a>
                     </div><!-- .entry-footer -->
                 </div><!-- .col -->
 
@@ -340,7 +340,7 @@
                             <img src="images/cause-4.jpg" alt="">
 
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .figure-overlay -->
                         </figure>
 
@@ -382,7 +382,7 @@
                             <img src="images/cause-5.jpg" alt="">
 
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .figure-overlay -->
                         </figure>
 
@@ -424,7 +424,7 @@
                             <img src="images/cause-6.jpg" alt="">
 
                             <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                <a href="donat.php" class="btn gradient-bg mr-2">Donate Now</a>
                             </div><!-- .figure-overlay -->
                         </figure>
 

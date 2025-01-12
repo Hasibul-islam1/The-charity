@@ -1,3 +1,34 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    // Database connection
+    $conn = new mysqli('localhost', 'root', '', 'charity');
+
+    // Check connection
+    if ($conn->connect_error) {
+        die('Connection failed: ' . $conn->connect_error);
+    }
+
+    // Prepare and bind
+    $stmt = $conn->prepare('INSERT INTO contacts (name, email, message) VALUES (?, ?, ?)');
+    $stmt->bind_param('sss', $name, $email, $message);
+
+    // Execute the query
+    if ($stmt->execute()) {
+        echo 'Message sent successfully!';
+    } else {
+        echo 'Error: ' . $stmt->error;
+    }
+
+    // Close connection
+    $stmt->close();
+    $conn->close();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,15 +100,16 @@
                 </div><!-- .col -->
 
                 <div class="col-12 col-lg-7">
-                    <form class="contact-form">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <textarea rows="15" cols="6" placeholder="Messages"></textarea>
+                <form class="contact-form" action="" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea rows="15" cols="6" name="message" placeholder="Messages" required></textarea>
 
-                        <span>
-                            <input class="btn gradient-bg" type="submit" value="Contact us">
-                        </span>
-                    </form><!-- .contact-form -->
+    <span>
+        <input class="btn gradient-bg" type="submit" value="Send">
+    </span>
+</form>
+
 
                 </div><!-- .col -->
 
