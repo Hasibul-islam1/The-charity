@@ -37,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="form-container">
         <form action="" method="POST">
+        <a  href="index.php">Back Home</a>
             <h2>DONATE NOW</h2>
 
             <!-- Donation Amount Buttons -->
