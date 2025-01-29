@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->fetch();
 
     if (password_verify($password, $hashed_password)) {
-        echo 'Login successful!';
+        header("Location:Admin/index.php");
     } else {
         echo 'Invalid email or password!';
     }

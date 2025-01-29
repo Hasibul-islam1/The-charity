@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bind_param('dsssss', $amount, $message, $name, $email, $contact_number, $payment_method);
 
     if ($stmt->execute()) {
-        echo 'Thank you for your donation!';
+        header("Location:invoice.php");
     } else {
         echo 'Error: ' . $stmt->error;
     }
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="form-container">
-        <form action="" method="POST">
+        <form action="invoice.php" method="POST">
         <a  href="index.php">Back Home</a>
             <h2>DONATE NOW</h2>
 
